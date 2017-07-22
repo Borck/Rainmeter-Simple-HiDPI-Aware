@@ -1,0 +1,6 @@
+[Variables]
+URL=http://feeds.feedburner.com/myDealZ?format=xml
+Title=MyDealz
+Link=http://www.mydealz.de/
+Entries=20
+Expression="(?siU)<title>(.*)<\/title>(?(?=.*<link>(.*)<\/link>.)).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*)"
