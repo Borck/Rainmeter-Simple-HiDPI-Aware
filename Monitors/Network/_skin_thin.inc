@@ -1,7 +1,7 @@
 [Variables]
 @includeVars=#@#variables.inc
 @includeStyles=#@#styles.inc
-@includeMeasure=#CURRENTPATH#_measure.inc
+@includeMeasure=#CURRENTPATH#_measure_local.inc
 x0=(26*#$#)
 h=(107*#$#)
 titleW=(55*#$#)
@@ -78,7 +78,7 @@ ImageFlip=Vertical
 ;//--meters upload--//
 
 [ulTimeLine1m]
-Meter=Bar
+Meter=Image
 SolidColor=#ColorAccent5#
 X=(#lineX0#+#timeLineSpace#)
 Y=#y0Up#
@@ -86,22 +86,22 @@ W=1
 H=#rowH#
 
 [ulTimeLine2m]
-Meter=Bar
+Meter=Image
 MeterStyle=ulTimeLine1m
 X=#timeLineSpace#r
 
 [ulTimeLine3m]
-Meter=Bar
+Meter=Image
 MeterStyle=ulTimeLine1m
 X=#timeLineSpace#r
 
 [ulTimeLine4m]
-Meter=Bar
+Meter=Image
 MeterStyle=ulTimeLine1m
 X=#timeLineSpace#r
 
 [ulTimeLine5m]
-Meter=Bar
+Meter=Image
 MeterStyle=ulTimeLine1m
 X=#timeLineSpace#r
 
@@ -114,26 +114,26 @@ y=3
 
 [netUpValue]
 Meter=STRING
-MeasureName=measureNetUp
+MeasureName=measureNetOut
 MeterStyle=ValueStringStyle|NetValue
 x=#loadValueSpace#r
 y=r
 
 [uploadBar]
 Meter=Bar
-MeasureName=measureNetUp
+MeasureName=measureNetOut
 MeterStyle=LoadBar
 Y=#y0Up#
 
 [netUpFill]
 Meter=Histogram
-MeasureName=measureNetUp
+MeasureName=measureNetOut
 MeterStyle=NetLine|NetLineFill
 Y=(#rowH#-#lineH#)r
 
 [netUpLine]
 Meter=Line
-MeasureName=measureNetUp
+MeasureName=measureNetOut
 MeterStyle=NetLine|NetLineOut
 Y=r
 
@@ -187,27 +187,27 @@ y=(#Y0Down#+#rowH#+#$#*2)
 
 [netDownValue]
 Meter=STRING
+MeasureName=measureNetIn
 MeterStyle=ValueStringStyle|NetValue
-MeasureName=measureNetDown
 x=#loadValueSpace#r
 y=r
 
 [downloadBar]
 Meter=Bar
+MeasureName=measureNetIn
 MeterStyle=LoadBar|Flip
-MeasureName=measureNetDown
 Y=#Y0Down#
 
 [netDownFill]
 Meter=Histogram
+MeasureName=measureNetIn
 MeterStyle=NetLine|NetLineFill
-MeasureName=measureNetDown
 Y=#$#r
 Flip=1
 
 [netDownLine]
 Meter=Line
-MeasureName=measureNetDown
+MeasureName=measureNetIn
 MeterStyle=NetLine|NetLineOut
 Y=r
 Flip=1

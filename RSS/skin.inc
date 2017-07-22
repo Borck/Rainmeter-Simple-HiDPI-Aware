@@ -9,7 +9,7 @@ FontSize=#HeaderSize#
 FontFace=#FontHeader#
 AntiAlias=#AntiAlias#
 SolidColor=0,0,0,1
-Text=".:#Title#:."
+Text="#Title#"
 StringCase=UPPER
 X=2
 
@@ -17,7 +17,7 @@ X=2
 W=#MaxTextWidth#
 ClipString=1
 StringStyle=NORMAL
-FontColor=#ColorAccent3#
+FontColor=#ColorAccent2#
 FontSize=#FontSizeText#
 FontFace=#FontText#
 AntiAlias=#AntiAlias#
@@ -28,7 +28,7 @@ X=2
 W=#MaxTextWidth#
 ClipString=1
 StringStyle=NORMAL
-FontColor=#ColorAccent2#
+FontColor=#ColorAccent1#
 FontSize=#FontSizeText#
 FontFace=#FontText#
 AntiAlias=#AntiAlias#
@@ -40,9 +40,9 @@ X=2
 [RSS]
 Measure=Plugin
 Plugin=Plugins\WebParser.dll
+UpdateRate=600
 Url=#URL#
 RegExp=#Expression#
-UpdateRate=60
 StringIndex=1
 
 [MeasureRSS1]

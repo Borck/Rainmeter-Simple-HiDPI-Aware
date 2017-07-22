@@ -1,0 +1,6 @@
+[Variables]
+URL=http://www.rssmix.com/u/8223361/rss.xml
+Title=IT-News
+Link=http://www.rssmix.com/
+Entries=20
+Expression="(?siU)<title>(.*)<\/title>(?(?=.*<link>(.*)<\/link>.)).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*)"

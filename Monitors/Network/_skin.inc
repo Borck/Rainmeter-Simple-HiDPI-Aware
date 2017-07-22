@@ -1,5 +1,6 @@
 [Variables]
 @includeVars=#@#variables.inc
+@includeMeasure=#CURRENTPATH#_measure_local.inc
 BarWidth=(140*#$#)
 BarThickness=(5*#$#)
 HGap=(20*#$#)
@@ -8,6 +9,7 @@ SymbolWidth=(16*#$#)
 SymbolHeight=(16*#$#)
 BarY0=(#SymbolHeight#+#VGap#)
 ValueY0=(3*#$#)
+
 [meterbg1]
 Meter=STRING
 X=0
@@ -16,17 +18,6 @@ H=(20*#$#)
 W=(745*#$#)
 BackgroundMode=2
 SolidColor=0,0,0,1
-
---------------------------Measures-------------------------
-
-[measureNetIn]
-Measure=NetIn
-NetInSpeed=#MaxDL#
-; NetInSpeed must be set so your maximun download speed for the download bar to scale correctly
-
-[measureNetOut]
-Measure=NetOut
-NetOutSpeed=#MaxUL#
 
 --------------------------Upload-------------------------
 
@@ -42,7 +33,7 @@ BackgroundMode=2
 SolidColor= 0,0,0,1
 AntiAlias=1
 
-[meterUploadBar]
+[MeterUploadBar]
 Meter=BAR
 MeasureName=measureNetOut
 X=r
