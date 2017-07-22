@@ -117,26 +117,26 @@ y=(17*#$#)
 
 [netUpValue]
 Meter=STRING
-MeasureName=measureNetOut
+MeasureName=measureNetIn
 MeterStyle=ValueStringStyle|NetValue
 x=#loadValueX0#
 y=(30*#$#)
 
 [uploadBar]
 Meter=Bar
-MeasureName=measureNetOut
+MeasureName=measureNetIn
 MeterStyle=LoadBar
 Y=#y0Up#
 
 [netUpFill]
 Meter=Histogram
-MeasureName=measureNetOut
+MeasureName=measureNetIn
 MeterStyle=NetLine|NetLineFill
 Y=(#rowH#-#lineH#)r
 
 [netUpLine]
 Meter=Line
-MeasureName=measureNetOut
+MeasureName=measureNetIn
 MeterStyle=NetLine|NetLineOut
 Y=r
 
@@ -191,27 +191,27 @@ y=(17*#$#)r
 
 [netDownValue]
 Meter=STRING
-MeasureName=measureNetIn
+MeasureName=measureNetOut
 MeterStyle=ValueStringStyle|NetValue
 x=#loadValueX0#
 y=(#Y0Down#+4*#$#)
 
 [downloadBar]
 Meter=Bar
-MeasureName=measureNetIn
+MeasureName=measureNetOut
 MeterStyle=LoadBar|Flip
 Y=#Y0Down#
 
 [netDownFill]
 Meter=Histogram
-MeasureName=measureNetIn
+MeasureName=measureNetOut
 MeterStyle=NetLine|NetLineFill
 Y=#$#r
 Flip=1
 
 [netDownLine]
 Meter=Line
-MeasureName=measureNetIn
+MeasureName=measureNetOut
 MeterStyle=NetLine|NetLineOut
 Y=r
 Flip=1
