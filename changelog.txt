@@ -1,3 +1,8 @@
+next release
+* improve feed support
+** now in a separate plugin 'FeedParser' as a easier to use alternative to WebParser for news FeedParser
+** supports chonological merge of multiple feeds
+
 17.07
 * improve loading time of RSS feed meters
 * clean up skins
