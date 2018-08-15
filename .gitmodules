@@ -1,0 +1,3 @@
+[submodule "_Plugins/src"]
+	path = _Plugins/src
+	url = https://github.com/Borck/Rainmeter-Plugins.git
