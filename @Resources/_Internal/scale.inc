@@ -2,7 +2,7 @@
 
 [$]
 Measure=plugin
-Plugin=Plugins/SystemInfo.dll
+Plugin=Plugins/Scale.dll
 Type=scale
 UpdateDivider=-1
 

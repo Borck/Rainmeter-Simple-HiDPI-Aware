@@ -1,5 +1,5 @@
 [Variables]
 @includeDefaultColor=#@#Themes/_default.incc
-ColorHighlight   = CC6D00
-ColorHighlight2		= 663600
+ColorHighlight   = f39c12
+ColorHighlight2		= f39c12
 

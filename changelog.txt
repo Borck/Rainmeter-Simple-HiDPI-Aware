@@ -1,0 +1,16 @@
+17.07
+* improve loading time of RSS feed meters
+* clean up skins
+* minor look and feel improvements
+* change layout of network meter
+
+17.05
+* added weather meter
+* improve look and feel of shutdown/restart buttons
+* change layout of network meter
+
+15.?
+* implemented HiDPI awareness of all skins
+
+
+

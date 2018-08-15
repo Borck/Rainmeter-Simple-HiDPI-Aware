@@ -35,7 +35,7 @@ AntiAlias=1
 
 [MeterUploadBar]
 Meter=BAR
-MeasureName=measureNetIn
+MeasureName=measureUpload
 X=r
 Y=#BarY0#
 W=#BarWidth#
@@ -48,7 +48,7 @@ BarOrientation=HORIZONTAL
 
 [meterUploadValue]
 Meter=STRING
-MeasureName=measureNetIn
+MeasureName=measureUpload
 X=#BarWidth#
 Y=#ValueY0#
 W=1
@@ -71,7 +71,7 @@ AutoScale=1
 
 [meterDownloadValue]
 Meter=STRING
-MeasureName=measureNetOut
+MeasureName=measureDownload
 X=#HGap#r
 Y=#ValueY0#
 W=(147*#$#)
@@ -89,7 +89,7 @@ AutoScale=1
 
 [meterDownloadBar]
 Meter=BAR
-MeasureName=measureNetOut
+MeasureName=measureDownload
 X=r
 Y=#BarY0#
 W=#BarWidth#
