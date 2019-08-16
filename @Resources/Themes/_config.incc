@@ -13,6 +13,6 @@ ColorAccent5	    = #ColorAccent#33
 ColorBack         = 111111
 ColorDefault      = #ColorAccent2#
 ColorHover        = #ColorAccent1#
-Theme=darkcyan
+Theme=bluecerulean
 @includeTheme=#@#Themes/#Theme#.inc
 
