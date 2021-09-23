@@ -618,6 +618,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link1 MeterStyle LinkHoverStyle][!UpdateMeter Link1][!Redraw]
 MouseLeaveAction=[!SetOption Link1 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link1][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl1]]
+ToolTipText=[MeasureLinkTitle1]
 
 [Link2]
 Meter=STRING
@@ -631,6 +632,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link2 MeterStyle LinkHoverStyle][!UpdateMeter Link2][!Redraw]
 MouseLeaveAction=[!SetOption Link2 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link2][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl2]]
+ToolTipText=[MeasureLinkTitle2]
 
 [Link3]
 Meter=STRING
@@ -644,6 +646,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link3 MeterStyle LinkHoverStyle][!UpdateMeter Link3][!Redraw]
 MouseLeaveAction=[!SetOption Link3 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link3][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl3]]
+ToolTipText=[MeasureLinkTitle3]
 
 [Link4]
 Meter=STRING
@@ -657,6 +660,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link4 MeterStyle LinkHoverStyle][!UpdateMeter Link4][!Redraw]
 MouseLeaveAction=[!SetOption Link4 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link4][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl4]]
+ToolTipText=[MeasureLinkTitle4]
 
 [Link5]
 Meter=STRING
@@ -670,6 +674,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link5 MeterStyle LinkHoverStyle][!UpdateMeter Link5][!Redraw]
 MouseLeaveAction=[!SetOption Link5 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link5][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl5]]
+ToolTipText=[MeasureLinkTitle5]
 
 [Link6]
 Meter=STRING
@@ -683,6 +688,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link6 MeterStyle LinkHoverStyle][!UpdateMeter Link6][!Redraw]
 MouseLeaveAction=[!SetOption Link6 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link6][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl6]]
+ToolTipText=[MeasureLinkTitle6]
 
 [Link7]
 Meter=STRING
@@ -696,6 +702,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link7 MeterStyle LinkHoverStyle][!UpdateMeter Link7][!Redraw]
 MouseLeaveAction=[!SetOption Link7 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link7][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl7]]
+ToolTipText=[MeasureLinkTitle7]
 
 [Link8]
 Meter=STRING
@@ -709,6 +716,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link8 MeterStyle LinkHoverStyle][!UpdateMeter Link8][!Redraw]
 MouseLeaveAction=[!SetOption Link8 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link8][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl8]]
+ToolTipText=[MeasureLinkTitle8]
 
 [Link9]
 Meter=STRING
@@ -722,6 +730,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link9 MeterStyle LinkHoverStyle][!UpdateMeter Link9][!Redraw]
 MouseLeaveAction=[!SetOption Link9 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link9][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl9]]
+ToolTipText=[MeasureLinkTitle9]
 
 [Link10]
 Meter=STRING
@@ -735,6 +744,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link10 MeterStyle LinkHoverStyle][!UpdateMeter Link10][!Redraw]
 MouseLeaveAction=[!SetOption Link10 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link10][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl10]]
+ToolTipText=[MeasureLinkTitle10]
 
 [Link11]
 Meter=STRING
@@ -748,6 +758,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link11 MeterStyle LinkHoverStyle][!UpdateMeter Link11][!Redraw]
 MouseLeaveAction=[!SetOption Link11 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link11][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl11]]
+ToolTipText=[MeasureLinkTitle11]
 
 [Link12]
 Meter=STRING
@@ -761,6 +772,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link12 MeterStyle LinkHoverStyle][!UpdateMeter Link12][!Redraw]
 MouseLeaveAction=[!SetOption Link12 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link12][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl12]]
+ToolTipText=[MeasureLinkTitle12]
 
 [Link13]
 Meter=STRING
@@ -774,6 +786,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link13 MeterStyle LinkHoverStyle][!UpdateMeter Link13][!Redraw]
 MouseLeaveAction=[!SetOption Link13 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link13][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl13]]
+ToolTipText=[MeasureLinkTitle13]
 
 [Link14]
 Meter=STRING
@@ -787,6 +800,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link14 MeterStyle LinkHoverStyle][!UpdateMeter Link14][!Redraw]
 MouseLeaveAction=[!SetOption Link14 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link14][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl14]]
+ToolTipText=[MeasureLinkTitle14]
 
 [Link15]
 Meter=STRING
@@ -800,6 +814,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link15 MeterStyle LinkHoverStyle][!UpdateMeter Link15][!Redraw]
 MouseLeaveAction=[!SetOption Link15 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link15][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl15]]
+ToolTipText=[MeasureLinkTitle15]
 
 [Link16]
 Meter=STRING
@@ -813,6 +828,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link16 MeterStyle LinkHoverStyle][!UpdateMeter Link16][!Redraw]
 MouseLeaveAction=[!SetOption Link16 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link16][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl16]]
+ToolTipText=[MeasureLinkTitle16]
 
 [Link17]
 Meter=STRING
@@ -826,6 +842,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link17 MeterStyle LinkHoverStyle][!UpdateMeter Link17][!Redraw]
 MouseLeaveAction=[!SetOption Link17 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link17][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl17]]
+ToolTipText=[MeasureLinkTitle17]
 
 [Link18]
 Meter=STRING
@@ -839,6 +856,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link18 MeterStyle LinkHoverStyle][!UpdateMeter Link18][!Redraw]
 MouseLeaveAction=[!SetOption Link18 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link18][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl18]]
+ToolTipText=[MeasureLinkTitle18]
 
 [Link19]
 Meter=STRING
@@ -852,6 +870,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link19 MeterStyle LinkHoverStyle][!UpdateMeter Link19][!Redraw]
 MouseLeaveAction=[!SetOption Link19 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link19][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl19]]
+ToolTipText=[MeasureLinkTitle19]
 
 [Link20]
 Meter=STRING
@@ -865,6 +884,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link20 MeterStyle LinkHoverStyle][!UpdateMeter Link20][!Redraw]
 MouseLeaveAction=[!SetOption Link20 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link20][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl20]]
+ToolTipText=[MeasureLinkTitle20]
 
 [Link21]
 Meter=STRING
@@ -878,6 +898,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link21 MeterStyle LinkHoverStyle][!UpdateMeter Link21][!Redraw]
 MouseLeaveAction=[!SetOption Link21 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link21][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl21]]
+ToolTipText=[MeasureLinkTitle21]
 
 [Link22]
 Meter=STRING
@@ -891,6 +912,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link22 MeterStyle LinkHoverStyle][!UpdateMeter Link22][!Redraw]
 MouseLeaveAction=[!SetOption Link22 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link22][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl22]]
+ToolTipText=[MeasureLinkTitle22]
 
 [Link23]
 Meter=STRING
@@ -904,6 +926,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link23 MeterStyle LinkHoverStyle][!UpdateMeter Link23][!Redraw]
 MouseLeaveAction=[!SetOption Link23 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link23][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl23]]
+ToolTipText=[MeasureLinkTitle23]
 
 [Link24]
 Meter=STRING
@@ -917,6 +940,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link24 MeterStyle LinkHoverStyle][!UpdateMeter Link24][!Redraw]
 MouseLeaveAction=[!SetOption Link24 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link24][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl24]]
+ToolTipText=[MeasureLinkTitle24]
 
 [Link25]
 Meter=STRING
@@ -930,6 +954,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link25 MeterStyle LinkHoverStyle][!UpdateMeter Link25][!Redraw]
 MouseLeaveAction=[!SetOption Link25 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link25][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl25]]
+ToolTipText=[MeasureLinkTitle25]
 
 [Link26]
 Meter=STRING
@@ -943,6 +968,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link26 MeterStyle LinkHoverStyle][!UpdateMeter Link26][!Redraw]
 MouseLeaveAction=[!SetOption Link26 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link26][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl26]]
+ToolTipText=[MeasureLinkTitle26]
 
 [Link27]
 Meter=STRING
@@ -956,6 +982,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link27 MeterStyle LinkHoverStyle][!UpdateMeter Link27][!Redraw]
 MouseLeaveAction=[!SetOption Link27 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link27][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl27]]
+ToolTipText=[MeasureLinkTitle27]
 
 [Link28]
 Meter=STRING
@@ -969,6 +996,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link28 MeterStyle LinkHoverStyle][!UpdateMeter Link28][!Redraw]
 MouseLeaveAction=[!SetOption Link28 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link28][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl28]]
+ToolTipText=[MeasureLinkTitle28]
 
 [Link29]
 Meter=STRING
@@ -982,6 +1010,7 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link29 MeterStyle LinkHoverStyle][!UpdateMeter Link29][!Redraw]
 MouseLeaveAction=[!SetOption Link29 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link29][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl29]]
+ToolTipText=[MeasureLinkTitle29]
 
 [Link30]
 Meter=STRING
@@ -995,4 +1024,5 @@ UpdateDivider=-1
 MouseOverAction=[!SetOption Link30 MeterStyle LinkHoverStyle][!UpdateMeter Link30][!Redraw]
 MouseLeaveAction=[!SetOption Link30 MeterStyle LinkDefaultStyle][!Delay #LinkUnhoverDelay#][!UpdateMeter Link30][!Redraw]
 LeftMouseUpAction=!execute [[MeasureLinkUrl30]]
+ToolTipText=[MeasureLinkTitle30]
 
