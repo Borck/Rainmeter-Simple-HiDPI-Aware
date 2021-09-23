@@ -21,20 +21,18 @@ A minimalistic and flat skin pack for Rainmeter, which unlocks the awesomeness o
 
 To installation of Simple HiDPI-aware requires two components to be installed:
 
-
-<div style="width: 350px;">
-  <div style="float: left; width: 50%;">
-    <div style="margin: 10%;">
-      <img class="center-block" style="margin: 0% 25%;height: 100px" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Rainmeter_Icon.svg"/>
+<table cellspacing="100"> 
+  <tr>
+    <td style="text-align:center;" width=150px>
+      <img height="100px" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Rainmeter_Icon.svg"/>
       <p style="text-align: center">Rainmeter 4.3+</br><a href="https://www.rainmeter.net/">Download</a></p>
-    </div>
-  </div>
-  <div style="float: right; width: 50%;">
-    <div style="margin: 10%;">
-      <img class="center-block" style="margin: 0% 15%;height: 100px" src="./@Doc/Rainstaller.png">
+    </td>
+    <td style="text-align:center">
+      <img height="100px" src="./@Doc/Rainstaller.png">
       <p style="text-align: center">Skin Pack</br><a href="https://github.com/Borck/Rainmeter-Simple-HiDPI-Aware/releases/latest">Download</a></p>
-  </div>
-</div>
+    </td>
+  </tr>
+</table>
 
 For more information about installing skins follow the [documentation of Rainmeter](https://docs.rainmeter.net/manual/installing-skins/).
 
@@ -51,5 +49,5 @@ Code released under the [LGPL-2.1 License](License).
 
 ## Feedback
 
-I would appreciate any feedback. If you have any issues, feel free to [open a ticket](https://github.com/Borck/Rainmeter-Simple-HiDPI-Aware/issues).
+I would appreciate any feedback. If you have any issue, feel free to [file a ticket](https://github.com/Borck/Rainmeter-Simple-HiDPI-Aware/issues).
 
