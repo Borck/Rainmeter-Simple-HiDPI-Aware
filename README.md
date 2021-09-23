@@ -1,3 +1,9 @@
+<style>
+td, th {
+   border: none!important;
+   text-align:center;
+}
+</style>
 # Rainmeter: Simple HiDPI-Aware
 A minimalistic and flat skin pack for Rainmeter, which unlocks the awesomeness of HiDPI. Thus, skins are sharp on each scale level of the screen. The problem, that was solved is that the scaling is taken over by Windows itself, which scales an already rendered skin object to a blurry one. An enclosed DLL sets the dpi awareness flag for Rainmeter at runtime and thus the automatic scaling is disabled. It also provides the scale factor that can be used by meters.
 
@@ -21,13 +27,13 @@ A minimalistic and flat skin pack for Rainmeter, which unlocks the awesomeness o
 
 To installation of Simple HiDPI-aware requires two components to be installed:
   
-<table style="border: 0px; border-collapse: collapse;"> 
+<table> 
   <tr>
-    <td style="text-align:center;border: none;" width=150px>
+    <td width=150px>
       <img height="100px" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Rainmeter_Icon.svg"/>
       <p style="text-align: center">Rainmeter 4.3+</br><a href="https://www.rainmeter.net/">Download</a></p>
     </td>
-    <td style="text-align:center;border: none;">
+    <td>
       <img height="100px" src="./@Doc/Rainstaller.png">
       <p style="text-align: center">Skin Pack</br><a href="https://github.com/Borck/Rainmeter-Simple-HiDPI-Aware/releases/latest">Download</a></p>
     </td>
