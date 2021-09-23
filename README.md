@@ -20,14 +20,14 @@ A minimalistic and flat skin pack for Rainmeter, which unlocks the awesomeness o
 ## Installation
 
 To installation of Simple HiDPI-aware requires two components to be installed:
-
-<table cellspacing="100"> 
+  
+<table style="border: 0px; border-collapse: collapse;"> 
   <tr>
-    <td style="text-align:center;" width=150px>
+    <td style="text-align:center;border: none;" width=150px>
       <img height="100px" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Rainmeter_Icon.svg"/>
       <p style="text-align: center">Rainmeter 4.3+</br><a href="https://www.rainmeter.net/">Download</a></p>
     </td>
-    <td style="text-align:center">
+    <td style="text-align:center;border: none;">
       <img height="100px" src="./@Doc/Rainstaller.png">
       <p style="text-align: center">Skin Pack</br><a href="https://github.com/Borck/Rainmeter-Simple-HiDPI-Aware/releases/latest">Download</a></p>
     </td>
