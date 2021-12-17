@@ -23,7 +23,7 @@ SolidColor=0,0,0,1
 
 [MeterUploadimg]
 Meter=IMAGE
-ImageName=#@#Images/up.png
+ImageName=#@#Images/load.png
 X=0
 Y=0
 W=#SymbolWidth#
@@ -101,7 +101,7 @@ BarOrientation=HORIZONTAL
 
 [MeterDownloadimg]
 Meter=IMAGE
-ImageName=#@#Images/down.png
+ImageName=#@#Images/load.png
 X=(#BarWidth#-#SymbolWidth#)r
 Y=(-#SymbolHeight#-#VGap#)r
 W=#SymbolWidth#
@@ -110,4 +110,5 @@ BackgroundMode=2
 ImageTint=#ColorAccent2#
 SolidColor= 0,0,0,1
 AntiAlias=1
+ImageFlip=vertical
 

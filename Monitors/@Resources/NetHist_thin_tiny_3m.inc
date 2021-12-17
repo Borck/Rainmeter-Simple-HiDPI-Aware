@@ -1,8 +1,8 @@
 ;  EXAMPLE:
 ;
 ;  [Variables]
-;  label='D'
-;  labelWidth=5
+;  title='D'
+;  titleWidth=5
 ;  @includeMeasure=#CURRENTPATH#/../Network/_measure_local.inc
 ;  measureName=measureDownload
 ;  @includeSkin=../@Resources/NetHist_thin_tiny_3m.inc
@@ -14,22 +14,21 @@ historyMinutes=3
 historyAutoscale=0
 historyLineWidth=1
 ;$=2
-historyLabel=#label#
-historyLabelX=0
-historyLabelY=0
-historyLabelFontSize=#FontSizeH1#
+historyTitle=#title#
+historyTitleX=0
+historyTitleY=0
+historyTitleFontSize=#FontSizeH1#
 
-historyBarMinuteWidth=(70*#$#)
 ;value seams to be without scale, when transform is used
-historyBarX=(#historyLabelFontSize#/#$#+(#labelWidth#*#$#)) 
-historyBarY=(0.7*#historyLabelFontSize#)
-historyBarHeight=(0.7*#historyLabelFontSize#)
-historyBarWidth=(#historyMinutes#*#historyBarMinuteWidth#)
+historyBarX=(#historyTitleFontSize#*1.0) 
+historyBarY=(0.7*#historyTitleFontSize#)
+historyBarHeight=(0.7*#historyTitleFontSize#)
+historyBarWidth=(220*#$#)
 
 
-historyValueX=(#historyBarX#+#historyBarMinuteWidth#)
+historyValueX=(#historyBarX#+#historyBarWidth#)
 historyValueY=(#historyBarY#-5*#$#)
-
+historyBarMinuteWidth=(#historyBarWidth#/#historyMinutes#)
 
 ;//---------------- colors -------------------------//
 StatsForeground=777777
@@ -63,7 +62,7 @@ SolidColor2=#StatsBackground2#
 LineColor=#StatsForeground#
 LineWidth=#historyLineWidth#
 
-[Label]
+[Title]
 FontColor=#ColorAccent4#
 
 [NetValue]
@@ -73,31 +72,35 @@ NumOfDecimals=0
 FontColor=#ColorAccent3#
 SolidColor=#StatsBackground1#66
 
-[TimeLabel]
-FontStyle=Normal
-FontColor=#ColorAccent5#
-StringAlign=Left
-
-[Flip]
-Flip=1
-ImageFlip=Vertical
-
 
 
 ;//-------------------------------------------------//
 ;//---------------- meters -------------------------//
 ;//-------------------------------------------------//
 
-[historyLabel]
+[MeterTitle]
 Meter=STRING
 MeterStyle=SectionHeaderStyle
-Text=#historyLabel#
-FontSize=#historyLabelFontSize#
+Text=#historyTitle#
+FontSize=#historyTitleFontSize#
 StringAlign=Left
-X=#historyLabelX#
-Y=#historyLabelY#
+X=#historyTitleX#
+Y=#historyTitleY#
 
-[historyBarLineFill]
+[MeterTitleIcon]
+Meter=IMAGE
+ImageName=#Icon#
+ImageFlip=#IconFlip#
+X=(#historyTitleX#+4*#$#)
+Y=(#historyTitleY#+10*#$#)
+H=(#historyTitleFontSize#)
+W=(#historyTitleFontSize#)
+BackgroundMode=2
+ImageTint=#ColorHighlight#
+SolidColor= 0,0,0,1
+AntiAlias=1
+
+[MeterBarFill]
 Meter=Histogram
 MeasureName=#measureName#
 MeterStyle=NetLine|NetLineFill|NetLineOut
@@ -106,7 +109,7 @@ Y=#historyBarY#
 W=#historyBarWidth#
 H=#historyBarHeight#
 
-[historyBarLine]
+[MeterBarLine]
 Meter=Line
 MeasureName=#measureName#
 MeterStyle=NetLine|NetLineOut
@@ -115,13 +118,16 @@ Y=#historyBarY#
 W=#historyBarWidth#
 H=#historyBarHeight#
 
-[historyBarValue]
+[MeterValue]
 Meter=STRING
 MeasureName=#measureName#
 MeterStyle=ValueStringStyle|NetValue
-X=#historyValueX#
+X=#historyBarX#+#historyBarWidth#
 Y=#historyValueY#
+W=#historyBarWidth#
 Hidden=#hideLoadValues#
+
+
 
 
 
@@ -129,7 +135,7 @@ Hidden=#hideLoadValues#
 ;//---------------- time lines ---------------------//
 ;//-------------------------------------------------//
 
-[timeLine1m]
+[MeterTimeLine1m]
 Meter=Image
 SolidColor=#ColorAccent5#
 X=(#historyBarX#+#historyBarMinuteWidth#)
@@ -137,12 +143,12 @@ Y=#historyBarY#
 W=1
 H=#historyBarHeight#
 
-[timeLine2m]
+[MeterTimeLine2m]
 Meter=Image
 MeterStyle=timeLine1m
 X=(#historyBarMinuteWidth#)r
 
-[timeLine3m]
+[MeterTimeLine3m]
 Meter=Image
 MeterStyle=timeLine1m
 X=(#historyBarMinuteWidth#)r
