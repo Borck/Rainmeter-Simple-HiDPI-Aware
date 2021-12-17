@@ -1,6 +1,0 @@
-[Variables]
-URL=http://rss.winfuture.de/c/617/fe.ed/static.winfuture.de/feeds/WinFuture-News-rss2.0.xml
-Title=WinFuture
-Link=http://winfuture.de/
-Entries=20
-Expression="(?siU)<title>(.*)<\/title>(?(?=.*<link>(.*)<\/link>.)).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*).*<item(?:.*<title>(.*)<\/title>.*<link>(.*)<\/link>.*)"
